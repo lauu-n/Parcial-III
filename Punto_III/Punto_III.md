@@ -51,7 +51,8 @@ Para ejecutar:
 1. Crear la estructura del proyecto Cargo:
 En tu terminal, ejecuta:
 ```
-fffff
+cargo new linear_regression_rust
+cd linear_regression_rust
 ```
 2. Configurar Cargo.toml
 Edita el archivo Cargo.toml que se creó automáticamente y reemplaza su contenido con:
@@ -90,3 +91,4 @@ cargo run --release
 - Selección Contextual: La elección entre Python y RUST debe basarse en los requisitos específicos del proyecto: velocidad de desarrollo vs performance de ejecución.
 
 Para regresión lineal y algoritmos similares de machine learning, RUST ofrece ventajas de performance sustanciales, mientras Python mantiene ventajas en velocidad de desarrollo y ecosistema. La decisión óptima depende del contexto específico de aplicación y los trade-offs aceptables entre desarrollo time y runtime performance.
+
