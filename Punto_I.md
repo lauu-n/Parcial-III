@@ -1,9 +1,9 @@
 # 1. Diseño para realizar regresión lineal con Paradigma de Concurrencia y Cálculo PI
 
 ## Arquitectura:
-  •	Coordinador principal: Controla iteraciones y sincroniza.
-  •	Workers: Para trabajar en concurrente, calculan partes de los gradientes.
-  •	Shared Buffer: Almacena parámetros y resultados durante el proceso.
+  - Coordinador principal: Controla iteraciones y sincroniza.
+  - Workers: Para trabajar en concurrente, calculan partes de los gradientes.
+  - Shared Buffer: Almacena parámetros y resultados durante el proceso.
 
 ## Componentes:
   1.	Main controller:
