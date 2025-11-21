@@ -3,11 +3,11 @@
 ## Estructura del parcail
 Parcial_III/
 │
-├── Punto_I.md                 # Diseño con Paradigma de Concurrencia PI
+├── Punto_I.md
 │
-├── Punto_II.md                # Diseño con Paradigma de Aspectos
+├── Punto_II.md
 │
-├── Punto_III/               # Implementación y Comparación Python vs RUST
+├── Punto_III/               
 │   ├── regresion_lineal.py
 │   ├── regresion_lineal.rs
 │   └── Punto_III.md
