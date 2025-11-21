@@ -7,8 +7,8 @@
 
 ## Componentes:
   1.	Main controller:
-    -	Inicia parámetros (w, b).
-    -	Divide el dataset en chunks (segmentos).
+    - Inicia parámetros (w, b).
+    - Divide el dataset en chunks (segmentos).
     -	Coordina epochs.
     -	Sincroniza resultados.
   2.	Gradient workers: 
