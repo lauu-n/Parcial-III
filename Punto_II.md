@@ -1,4 +1,4 @@
-# Diseño Detallado de Aspectos
+# Diseño con Paradigma de Aspectos
 
 ## Aspecto 1: LoggingAspect
 Responsabilidad: Registrar el progreso del entrenamiento y métricas importantes
@@ -158,13 +158,6 @@ PersistenceAspect → guardar modelo
 LoggingAspect → log resultados finales
 ```
 
-## Ventajas del Diseño con Aspectos
-- Separación de Concerns: Cada aspecto maneja una preocupación específica
-- Modularidad: Los aspectos pueden ser reutilizados en otros algoritmos
-- Mantenibilidad: Cambios en logging/validación no afectan el core
-- Extensibilidad: Nuevos aspectos pueden añadirse sin modificar el core
-- Configurabilidad: Los aspectos pueden activarse/desactivarse según necesidades
-
 ## Ejemplo de Configuración
 ```java
 AspectConfiguration config = new AspectConfiguration()
@@ -174,5 +167,3 @@ AspectConfiguration config = new AspectConfiguration()
     .enableMetrics(metrics: [MSE, R2, CONVERGENCE_RATE])
     .enablePersistence(checkpoint_interval: 500);
 ```
-
-Este diseño permite que el algoritmo core de regresión lineal permanezca limpio y enfocado en su lógica principal, mientras que todas las preocupaciones transversales son manejadas de manera modular y reusable a través de aspectos.
