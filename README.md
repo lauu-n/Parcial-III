@@ -1,6 +1,7 @@
 # Parcial III: Análisis de Paradigmas de Programación: Regresión Lineal
 
-## Estructura del parcail
+## Estructura del parcial
+```
 Parcial_III/
 │
 ├── Punto_I.md
@@ -13,3 +14,4 @@ Parcial_III/
 │   └── Punto_III.md
 │
 └── README.md (este archivo)
+```
